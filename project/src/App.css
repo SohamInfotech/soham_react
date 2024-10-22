@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+.nunito-sans{
+  font-family: "Nunito Sans", sans-serif!important;
+  font-optical-sizing: auto;
+  /* font-weight: 500; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.bg-primary span
+{
+    background-color: #90caf9;
+}
+
+
+.MuiDrawer-root .MuiPaper-root.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    top: 65px!important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  
+  }
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #aab7cf;
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #aab7cf; 
+  }
+
+.profileBTN:hover
+{
+  background-color: transparent!important ;
+}
+
+.MuiStepper-root  .MuiStepConnector-root span
+{
+  border: none;
+}
+
+
+.MuiBreadcrumbs-ol .MuiBreadcrumbs-separator{
+    color: #899bbd;
+}
+
+.Breadcrumb:hover
+{
+    text-decoration: underline!important;
+}
+
+.social-icon{
+  line-height: 0px;
+  color: rgba(1, 41, 112, 0.5);
+  margin-top: 5px!important;
+}
+
+.social-icon:hover
+{
+  color: #012970;
+}
+
+
+/* @media (max-width : "400px")
+{
+  .form-lable{
+    margin-bottom: 10px;
+  }
+} */
+
+@media (max-width : 400px) {
+
+  .form-group  .form-lable{
+    margin-bottom: 10px;
+  }
+    
+  .btn-grid .btn
+  {
+    margin-top: 0px;
+  }
+  .btn-grid .btn .change-btn
+  {
+    font-size: 13px;
+  }
+}
